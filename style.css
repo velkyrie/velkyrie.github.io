@@ -15,6 +15,14 @@ left: 50%;
 transform: translate(-50%, -50%); 
 
 }
+
+#arrow2{
+    width:100px;
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translate(-50%, -70%);     
+}
 #navbarr {
 position: fixed;
 width:100%;
@@ -64,6 +72,25 @@ top: 170px;
     
 
 }
+
+.col-lg-4{
+display: grid;
+place-items: start left;
+top: 200px;
+left: 100px;
+
+}
+
+.col-md-8{
+    display: grid;
+    place-items: start center;
+    text-align: left;
+    right: 90px;
+    top: 170px;
+
+}
+
+
 
 .songtitle{
     font-family: 'Electrolize', sans-serif;
